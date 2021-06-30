@@ -1,0 +1,75 @@
+/* 
+Acomodo de estilos
+1.Posicionamiento
+2.Modelo 
+3.Tipografia
+4.Visuales
+5.Otros */
+
+:root {
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #ffffff;
+    --turquise: rgb(13, 175, 187);
+    --yellow:rgb(179, 176, 21);
+  } 
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  main .main-content{
+      display: grid;
+      grid-template-columns:repeat(3, 1fr);
+      grid-gap: 5px;
+      width: 100%;
+      
+  }
+  .container{
+   background-color: var(--turquise);
+   width: 180px;
+   height: 180px;
+  }
+
+  .element1,.element2,.element3,.element4,.element5,.element6,.element7,.element8,.element9{
+    width:  60px;
+    height: 60px;
+    font-size:1.4rem;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+    background-color: var(--grey);
+}
+ .element1{
+     margin:0;
+ }
+ .element2{
+    margin: 60px 0;
+}
+.element3{
+    margin:120px 0;
+}
+.element4{
+    margin:0 auto;
+}
+.element5{
+    margin:60px auto;
+}
+.element6{
+    margin: 120px 0 0 60px;
+}
+.element7{
+    margin:0 0 0 120px;
+}
+.element8{
+    margin:60px 0 0px 120px;
+}
+.element9{
+    margin: 120px 0 0 120px;
+}
+
